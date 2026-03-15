@@ -20,5 +20,6 @@ class Raton(DispositivoEntrada):
 '''dispositivo1=DispositivoEntrada('Lenovo', 'USB C')'''
 #Incorrecto, no genera error. Pero inicializamos desde el objeto raton, ya que este manda
 #llamar el inicializador de dispositivo entrada y por lo tanto le pasa los atributos
-raton1= Raton('lenovo', 'USB C')
-print(raton1)
+if __name__ == '__main__':
+    raton1= Raton('lenovo', 'USB C')
+    print(raton1)

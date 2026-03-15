@@ -1,3 +1,6 @@
+
+
+
 class Monitor:
     contador_monitores = 0 #atributo de clase
     def __init__(self, marca,tamano):
@@ -9,6 +12,6 @@ class Monitor:
     def __str__(self):
         return f'ID {self.id}, Marca: {self.marca}, Tamano: {self.tamano}'
 
-#codigo prueba
-monitor1 = Monitor('Asus', '21 pulgadas')
-print(monitor1)
+if __name__ == '__main__':
+    monitor1 = Monitor('Asus', '21 pulgadas')
+    print(monitor1)

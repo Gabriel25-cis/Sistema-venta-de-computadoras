@@ -16,5 +16,6 @@ class Teclado(DispositivoEntrada):
         Tipo entrada: {self.tipo_entrada}'''
 
 #codigo de prueba
-teclado1 = Teclado('juanwei', 'Inalambrico')
-print(teclado1)
+if __name__ == '__main__':
+    teclado1 = Teclado('juanwei', 'Inalambrico')
+    print(teclado1)

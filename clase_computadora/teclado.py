@@ -11,9 +11,7 @@ class Teclado(DispositivoEntrada):
                                               #Dispositivo_entrada
 
     def __str__(self):
-        return f'''\t\tID: {self.id} 
-        Marca: {self.marca}
-        Tipo entrada: {self.tipo_entrada}'''
+        return f'''ID: {self.id}, Marca: {self.marca}, Tipo entrada: {self.tipo_entrada}'''
 
 #codigo de prueba
 if __name__ == '__main__':
